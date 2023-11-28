@@ -1,0 +1,182 @@
+/* reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* begin custom CSS */
+body {
+    font-family: Comfortaa;
+    background-image: url("https://usagif.com/wp-content/uploads/gifs/rainbow-82.gif");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: difference;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    max-width: 1920px;
+    min-width: 325px;
+
+}
+
+header {
+   margin-top: 10px;
+     margin-bottom: 10px;
+    flex-direction: row;
+    padding-bottom: 20px;
+    min-width: 100px;
+}
+
+#nav-title {
+    margin-left: 20px;
+
+}
+
+h1 {
+    margin-top: 13px;
+}
+
+#search-bar {
+    width: 500px;
+    align-content: flex-start;
+    margin-left: 20px;
+    min-width: 500px;
+}
+
+#search-button{
+    margin-right: 810px;
+}
+
+.navbar-end{
+    margin-right: 80px;
+    min-width: 20px;
+    margin-bottom: 5px;
+
+}
+
+
+iframe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 30px;
+    margin-left: auto;
+    
+}
+
+#page-title{
+    color: white;
+    position: fixed;
+    margin-left: 490px;
+    padding-top: 380px;
+    font-size: 60px;
+    transform: rotate(-19deg);
+    
+}
+
+#page-title:hover{
+    color: papayawhip;
+    font-style: italic;
+}
+
+/* media queries */
+@media (max-width: 1280px) {
+    header {
+        width: auto;
+        margin-right: 90px;
+    }
+    .navbar-end {
+        margin-left: 100px;
+    }
+  
+   
+ }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+   
+    }
+ 
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+   
+}
+    
+
+@media all and (max-width: 480px) { }
+
+@media screen and (orientation:portrait) { /* Portrait styles here */ }
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */ }
+
+
+/* CSS for iPhone, iPad, and Retina Displays */
+
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+} 
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+
+}
+

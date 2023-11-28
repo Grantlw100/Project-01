@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOPAMEME</title>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/style2.css">
 
@@ -13,15 +14,37 @@
 </head>
 
 <body>
-<header><h1>Search Bar</h1></header>
-<div>Dopameme</div>
+<header>
+   <!-- start navbar -->
+   <nav class ="navbar is-transparent">
+   <div class="navbar-start">
+<h1 id="nav-title">Meme Search</h1> 
+<input class="input is-info" id="search-bar" type="text" placeholder="Search for memes">
+</div>
+<button class="button is-info" id="search-button">Search</button>
+<span class="navbar-end">
+   <div class="field is-grouped">
+   <a class="navbar-item" href="https://ifunny.co/top-memes/day">iFunny</a>
+   <hr class="navbar-divider">
+   <a class="navbar-item"href="https://www.reddit.com/r/wholesomememes/">Reddit</a>
+   <hr class="navbar-divider">
+   <a class="navbar-item" href="https://memebase.cheezburger.com/">Memebase</a>
+   <hr class="navbar-divider">
+   </span>
+   </nav>
+</div>
+<!-- end navbar -->
 
+<!-- dopameme title on page -->
+<a id="page-title"href="index.html">Dopameme</a>
+</header>
+
+
+<!-- youtube videos -->
 <p>
-   <iframe width="210" height="172" src="https://www.youtube.com/embed/-0xq2Xg-_sw"></iframe>
-   <iframe width="210" height="172" src="https://www.youtube.com/embed/1gd_aC3Ig_I"></iframe>
+   <iframe width="500" height="400" src="https://www.youtube.com/embed/-0xq2Xg-_sw"></iframe>
+   <iframe width="500" height="400" src="https://www.youtube.com/embed/1gd_aC3Ig_I"></iframe>
 
-<p><a href="https://ifunny.co/top-memes/day">iFunny</a>
-   <a href="https://www.reddit.com/r/wholesomememes/">Reddit</a>
-   <a href="https://memebase.cheezburger.com/">Memebase</a></p>
+
 </body>
 </html>
