@@ -17,7 +17,29 @@
    <nav class ="navbar is-transparent">
    <div class="navbar-start">
 <h1 id="nav-title">Meme Search</h1> 
-<input class="input is-info" id="search-bar" type="text" placeholder="Search for memes">
+<div><input class="input is-info" id="search-bar" type="text" placeholder="Search for memes"></div>
+<div class="dropdown is-active">
+   <div class="dropdown-trigger">
+     <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+       <span>Meme Type</span>
+       <span class="icon is-small">
+         <i class="fas fa-angle-down" aria-hidden="true"></i>
+       </span>
+     </button>
+   </div>
+   <div class="dropdown-menu" id="dropdown-menu" role="menu">
+     <div class="dropdown-content">
+       
+       <a class="dropdown-item">
+         YouTube Video
+       </a>
+       <a href="#" class="dropdown-item">
+         Images
+       </a>
+     </div>
+   </div>
+ </div>
+       
 <button class="button is-info" id="search-button">Search</button>
 </div>
 <div class="navbar-end">
@@ -46,5 +68,6 @@
 </p>
 <script src="assets/java/script.js"></script>
 <script src="assets/java/java2.js"></script>
+<script src="https://kit.fontawesome.com/7f6b1a3089.js" crossorigin="anonymous"></script>
 </body>
 </html>
