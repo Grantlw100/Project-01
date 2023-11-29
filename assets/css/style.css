@@ -86,6 +86,10 @@ h1 {
     margin-right: 100px;
 }
 
+.dropdown {
+    margin-left: 10px;
+}
+
 .navbar-end{
     margin-right: 80px;
     min-width: 4px;
