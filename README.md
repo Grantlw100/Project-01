@@ -1,12 +1,12 @@
 # DopaMeme 🥳🤪
 
 ## Description
-Welcome to DopaMeme, where laughter knows no bounds! DopaMeme is an an exciting and comedic web destination crafted by a Dynamic team of humor enthusiasts. Dive into a world of endless laughs, giggles, and chuckles as we curate and create the wackiest and most relatable memes on the internet. 
+Welcome to DopaMeme✨, where laughter knows no bounds! DopaMeme is an an exciting and comedic web destination crafted by a Dynamic team of humor enthusiasts. Dive into a world of endless laughs, giggles, and chuckles as we curate and create the wackiest and most relatable memes on the internet. 
 
 ## User story
-As an internet user, I want to search for memes so that I can laugh.
+As an internet user, I want to look at memes and or see a dad joke to laugh.
 ## Given
-That the interent user wants to find memes, when they search for them on our site, then the memes will be on the page and will provide laughs.
+That the internet user wants to see memes and or dad jokes, then the memes and or dad joke will be on the page and will provide laughs😜.
 
 ## Website
 <a herf="#">DopaMeme</a>
