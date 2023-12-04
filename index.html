@@ -15,32 +15,23 @@
    <!-- start navbar -->
    <nav class ="navbar is-transparent">
    <div class="navbar-start">
-<h1 id="nav-title">Meme Search</h1> 
+<a href="index.html"><h1 id="nav-title">Dopameme</h1></a>
 <div><input class="input is-info" id="search-bar" type="text" placeholder="Search for memes"></div>
-<div class="dropdown is-active">
-   <div class="dropdown-trigger">
-     <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
-       <span>Meme Type</span>
-       <span class="icon is-small">
-         <i class="fas fa-angle-down" aria-hidden="true"></i>
-       </span>
      </button>
-   </div>
-   <div class="dropdown-menu" id="dropdown-menu" role="menu">
-     <div class="dropdown-content">
-       
-       <a class="dropdown-item">
-         Dad Jokes
-       </a>
-       <a href="#" class="dropdown-item">
-         Images
-       </a>
-     </div>
    </div>
  </div>
        
 <button class="button is-info" id="search-button">Search</button>
 </div>
+<!-- dad joke container -->
+<div class="container">
+  <div id="jokes" class="haha"></div>
+  <h1> Dad Jokes Here <i class="fa-solid fa-arrow-right"></i></h1>
+  <a href="dadjokes.html" class="button">Click for Dad Jokes</a>
+  </div>
+  <!-- end dad joke container -->
+
+  <!-- navbar links -->
 <div class="navbar-end">
    <div class="field is-grouped">
    <a class="navbar-item" href="https://ifunny.co/top-memes/day">iFunny</a>
@@ -64,12 +55,7 @@
    <iframe width="500" height="400" src="https://www.youtube.com/embed/-0xq2Xg-_sw"></iframe>
    <iframe width="500" height="400" src="https://www.youtube.com/embed/1gd_aC3Ig_I"></iframe>
 </p>
-<!-- DAD JOKE CARDS -->
-<div class="container">
-<div id="jokes" class="haha"></div>
-<h1> DAD JOKES HERE!! </h1>
-<a href="dadjokes.html" class="button">Click Here for Dad Jokes</a>
-</div>
+
 <script src="assets/javascript/youtube.js"></script>
  <script src="assets/javascript/script.js"></script>
 <script src="https://kit.fontawesome.com/7f6b1a3089.js" crossorigin="anonymous"></script>
