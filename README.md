@@ -7,6 +7,6 @@ Welcome to DopaMeme✨, where laughter knows no bounds! DopaMeme is an an exciti
 As an internet user, I want to look at memes and or see a dad joke to laugh.
 ## Given
 That the internet user wants to see memes and or dad jokes, then the memes and or dad joke will be on the page and will provide laughs😜.
-
+clear
 ## Website
 <a herf="#">DopaMeme</a>
